@@ -11,6 +11,8 @@ public class Main {
 	
 		for (Notification notification : notifications) {
 			notification.send();
+			notification.send();
+
 		}
 	}
 }
