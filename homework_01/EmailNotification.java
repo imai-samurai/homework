@@ -8,6 +8,7 @@ public class EmailNotification extends Notification {
 	
 	public void send() {
 		System.out.println("メール送信：" + this.getRecipient() + " に「" + this.getMessage() + "」");
+		// コメントてすと
 	}
 	
 }
